@@ -1,0 +1,30 @@
+.list{
+    list-style: none;
+    width: 50%;
+    margin: 3rem auto;
+    margin-bottom: 0;
+   
+}
+
+.list-item{
+    background-color: #D1103A;
+    box-shadow: #282c34 1px 1px 3px;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list-item:hover{
+    background-image: linear-gradient(to left,#EE1B49,50%,#EE8B49) 
+}
+
+.fa-trash:hover{
+    cursor: pointer;
+    color: gold;
+
+}

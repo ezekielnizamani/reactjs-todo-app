@@ -1,0 +1,20 @@
+.add-btn{
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-family: inherit;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #D1103A;
+    box-shadow: #282c34 1px 1px 3px;
+    color: white;
+    margin-left: 1rem;
+    
+
+}
+.add-btn:hover{
+    transition: ease-in 1s;
+
+    background-image: linear-gradient(#EE1B49,50%,#EE8B49) 
+}

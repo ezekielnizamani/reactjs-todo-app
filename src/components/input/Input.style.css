@@ -1,0 +1,22 @@
+
+.add-item{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-style: none;
+    outline: none;
+    padding:.5rem;
+    border-radius: 10px;
+    background-color: #D1103A;
+    box-shadow: #282c34 1px 1px 3px;
+    color: white;
+    font-family: inherit;
+}
+.add-item::placeholder{
+    
+    color: white;
+}
+
+.add-item:hover{
+    background-image: linear-gradient(#EE1B49,50%,#EE8B49) 
+
+}
