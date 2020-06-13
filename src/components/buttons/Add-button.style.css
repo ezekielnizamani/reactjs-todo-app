@@ -10,11 +10,10 @@
     box-shadow: #282c34 1px 1px 3px;
     color: white;
     margin-left: 1rem;
-    
-
+    transition: ease-in-out 1s;
 }
 .add-btn:hover{
-    transition: ease-in 1s;
+    transform: scale(1.1);
 
     background-image: linear-gradient(#EE1B49,50%,#EE8B49) 
 }
